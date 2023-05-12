@@ -1,6 +1,6 @@
 # M&M Portfolio
 
-Breve descripción o introducción del proyecto.
+Este proyecto es el portfolio de los trabajos de los gatos desarrolladores, Michi y Micha, pioneros en su campo.
 
 ## Instrucciones de Instalación
 
@@ -26,7 +26,12 @@ Explicación de la estructura de archivos del proyecto:
 
 ## Uso
 
-Descripción de cómo utilizar y navegar por el portafolio.
+Para acceder a este portfolio debes seguir los siguientes pasos:
+
+Paso 1. Navegar a la pagina de GitHub y clonar el repositorio.
+Paso 2. Utiliza live server (u otro semejante) para visitar el localhost y ver el contenido del portfolio.
+
+### git clone   https://github.com/ReyesMorales/PortfolioHTML
 
 ## Tecnologías Utilizadas
 
