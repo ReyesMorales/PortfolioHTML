@@ -31,7 +31,9 @@ Para acceder a este portfolio debes seguir los siguientes pasos:
 Paso 1. Navegar a la pagina de GitHub y clonar el repositorio.
 Paso 2. Utiliza live server (u otro semejante) para visitar el localhost y ver el contenido del portfolio.
 
-### git clone   https://github.com/ReyesMorales/PortfolioHTML
+```
+ git clone   https://github.com/ReyesMorales/PortfolioHTML
+```
 
 ## Tecnologías Utilizadas
 
