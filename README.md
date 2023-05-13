@@ -4,9 +4,14 @@ Este proyecto es el portfolio de los trabajos de los gatos desarrolladores, Mich
 
 ## Instrucciones de Instalación
 
-1. Paso 1...
-2. Paso 2...
-3. Paso 3...
+1. Navegar a la pagina de GitHub y clonar el repositorio.
+
+```
+ git clone https://github.com/ReyesMorales/PortfolioHTML
+```
+
+2. Utiliza live server (u otro semejante) para visitar el localhost y ver el contenido del portfolio.
+
    ...
 
 ## Estructura de Archivos
@@ -24,17 +29,6 @@ Explicación de la estructura de archivos del proyecto:
 └── ...
 
 
-## Uso
-
-Para acceder a este portfolio debes seguir los siguientes pasos:
-
-Paso 1. Navegar a la pagina de GitHub y clonar el repositorio.
-Paso 2. Utiliza live server (u otro semejante) para visitar el localhost y ver el contenido del portfolio.
-
-```
- git clone https://github.com/ReyesMorales/PortfolioHTML
-```
-
 ## Tecnologías Utilizadas
 
 - HTML
@@ -42,9 +36,9 @@ Paso 2. Utiliza live server (u otro semejante) para visitar el localhost y ver e
 
 ## Vista previa
 
+Version movil
+
 ![Portfolio](images/screenshotproject.png)
-
-
 
 ## Ejemplos de Código Destacados
 
