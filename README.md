@@ -32,13 +32,17 @@ Paso 1. Navegar a la pagina de GitHub y clonar el repositorio.
 Paso 2. Utiliza live server (u otro semejante) para visitar el localhost y ver el contenido del portfolio.
 
 ```
- git clone   https://github.com/ReyesMorales/PortfolioHTML
+ git clone https://github.com/ReyesMorales/PortfolioHTML
 ```
 
 ## Tecnologías Utilizadas
 
 - HTML
 - CSS
+
+## Vista previa
+
+![Portfolio](images/screenshotproject.png)
 
 
 
