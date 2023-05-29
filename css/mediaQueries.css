@@ -1,0 +1,32 @@
+@media screen and (max-width: 800px) {
+    .menu {
+         flex-direction: column;
+         justify-content: center;
+         position: absolute;
+         top: 0;
+         left: 0;
+         height: 100vh;
+         background-color: var(--accent-color);
+         z-index: 1;
+         transform: translateX(-110%);
+         transition: all .5s ease-in-out;
+    }
+
+    .menu li {
+         margin: 1em;
+    }
+
+    .toggle-menu {
+         display: block;
+    }
+
+    #toggle-open {
+         font-size: 1.5em;  
+         margin-top: -.2em;
+    }
+
+    #toggle-close {
+         font-size: 1.7em;
+         display: none;
+    }
+}
