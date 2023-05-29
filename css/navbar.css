@@ -8,11 +8,14 @@
     --text-icons: #FFFFFF;
 }
 
-.wrapper {
-    background-color: var(--primary-color);
-    color: var(--primary-text);
+.navbar {
+     background-color: var(--primary-color);
+     color: var(--primary-text);
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;       
 }
- 
+
 .brand span {
      color: var(--light-primary-color);
 }
@@ -22,31 +25,31 @@
 }
 
 .menu {
+     list-style: none;  
      display: flex;
      width: 50%;
-     justify-content: space-around;
+     justify-content: flex-end;
 }
  
 .menu a {
      color: var(--light-primary-color);
      text-decoration: none;
      padding: 4px 4px;
-     font-size: large;
+     font-size: medium;
+     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
  
 .menu a:hover {
-     /*background-color: var(--dark-primary-color);*/
+     background-color: var(--dark-primary-color);
      color: var(--primary-text);
-     transition: ease-in .1s;
-}
- 
-.menu li{
-     list-style: none;    
 }
 
-.navbar {
-     display: flex;
-     justify-content: space-between;
-     padding: 10px;       
-}
+.menu a:focus {
+     background-color: var(--dark-primary-color);
+     color: var(--primary-text);
+   }
+
+
+
+
 
