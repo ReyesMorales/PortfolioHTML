@@ -29,23 +29,19 @@
       </div>
     </nav>
     <header>
-      <picture>
-        <img
-        sizes="(max-width: 1400px) 100vw, 1400px"
-        srcset="
-        /images/header_original_hae9vm_c_scale,w_200.jpg 200w,
-        /images/header_original_hae9vm_c_scale,w_454.jpg 454w,
-        /images/header_original_hae9vm_c_scale,w_645.jpg 645w,
-        /images/header_original_hae9vm_c_scale,w_816.jpg 816w,
-        /images/header_original_hae9vm_c_scale,w_964.jpg 964w,
-        /images/header_original_hae9vm_c_scale,w_1080.jpg 1080w,
-        /images/header_original_hae9vm_c_scale,w_1191.jpg 1191w,
-        /images/header_original_hae9vm_c_scale,w_1304.jpg 1304w,
-        /images/header_original_hae9vm_c_scale,w_1395.jpg 1395w,
-        /images/header_original_hae9vm_c_scale,w_1400.jpg 1400w"
-        src="/images/header_original_hae9vm_c_scale,w_1400.jpg"
-        alt="">
-        </picture>
+          <picture>
+            <source media="(max-width: 767px)" srcset="
+              images/header_small/M_M_samll_apdlyl_ar_1_1,c_fill,g_auto__c_scale,w_200.jpg 200w,
+              images/header_small/M_M_samll_apdlyl_ar_1_1,c_fill,g_auto__c_scale,w_584.jpg 584w,
+              images/header_small/M_M_samll_apdlyl_ar_1_1,c_fill,g_auto__c_scale,w_685.jpg 685w">
+            <source media="(min-width: 768px) and (max-width: 991px)" srcset="
+              images/header_large/M_M_large_qqtxey_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg 538w,
+              images/header_large/M_M_large_qqtxey_ar_4_3,c_fill,g_auto__c_scale,w_694.jpg 694w">
+            <source media="(min-width: 992px) and (max-width: 1199px)" srcset="
+              images/header_large/M_M_large_qqtxey_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg 596w,
+              images/header_large/M_M_large_qqtxey_ar_16_9,c_fill,g_auto__c_scale,w_720.jpg 720w">
+            <img src="images/header_large/M_M_large_qqtxey_c_scale,w_1200.jpg" alt="">
+          </picture>
     </header>
     <main>
       <section id="carousel-section">
