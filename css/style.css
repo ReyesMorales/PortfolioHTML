@@ -1,3 +1,13 @@
+:root {
+    --primary-color:  #2196F3;
+    --light-primary-color: #BBDEFB;
+    --dark-primary-color: #1976D2;
+    --accent-color: #334299;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --text-icons: #FFFFFF;
+}
+
 picture {
     width: 100%;
 }
