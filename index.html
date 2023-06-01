@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/mediaQueries.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/form.css">
     
     <title>M&M</title>
   </head>
@@ -62,25 +63,24 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, dolorum aliquid ducimus recusandae atque fugiat saepe aperiam reprehenderit cupiditate dicta excepturi unde consectetur assumenda, asperiores dolores dolore maxime hic itaque.</p>
         </article>
       </section>
-      <section id="form-section">
-        <article>
+      <section id="contact-section">
           <header>
-            <h1>Formulario</h1>
+            <h2>Formulario</h2>
           </header>
          <form action="/links/form-register.html" method="post" novalidate>
           <div>
           <label for="name">Nombre</label>
-          <input required name="name" id="name" type="text">
+          <input required name="name" id="name" type="text" class="form-group">
         </div>
         <div>
           <label for="surname">Apellidos</label>
-          <input required name="surname" id="surname" type="text">
+          <input required name="surname" id="surname" type="text" class="form-group">
         </div>
         <div>
           <label for="phone">Teléfono</label>
-          <input required name="phone" id="phone" type="tel" pattern="[0-9]+">
+          <input required name="phone" id="phone" type="tel" pattern="[0-9]+" class="form-group">
         </div>
-        <fieldset>
+        <fieldset class="form-group">
           <legend>¿Como me conociste?</legend>          
           <input type="radio" id="university" name="option" value="universidad" checked>
           <label for="">Universidad</label>          
@@ -92,15 +92,13 @@
           <label for="">En Github</label>
         </fieldset>
         <label for="github">Usuario Github</label>
-        <input required name="github" id="github" type="text" pattern="^@[^\s]+" placeholder="@username" >
+        <input required name="github" id="github" type="text" pattern="^@[^\s]+" placeholder="@username" class="form-group">
         <label for="description">Descripcion</label>
-        <textarea required name="description" id="description" cols="30" rows="10" minlength="20" maxlength="180"></textarea>
-          <button type="submit">Enviar</button>
+        <textarea required name="textarea" id="description" cols="30" rows="10" minlength="20" maxlength="180" class="form-group"></textarea>
+          <button type="submit" id="btn-submit">Enviar</button>
          </form>
-        </article>
       </section>
     </main>
-    <hr />
     <footer class="footer">
       <div class="footer-content">
         <h2>Michi&Micha</h2>
