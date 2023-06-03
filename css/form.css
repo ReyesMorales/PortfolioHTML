@@ -1,67 +1,85 @@
+#contact-section {
+    background-color: var(--light-primary-color);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
 .form-group,
 .form-group-textarea {
-  display: block;
-  padding: 10px 20px;
-  margin-bottom: 2em;
-  margin-left: 10px;
-  background: none;
-  border-bottom: 1px solid var(--text-icons);
-  color: var(--primary-text);
-  background-color: var(--light-primary-color);
-}
-
-#contact-section {
-  background-color: var(--light-primary-color);
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 2em;
+    background: none;
+    border-bottom: 1px solid var(--text-icons);
+    color: var(--primary-text);
+    background-color: var(--light-primary-color);
 }
 
 .form-group-textarea {
-  height: 150px;
-  padding: 1.5em;
+    height: 150px;
+    padding: 1.5em;
 }
 
 fieldset {
-  padding: 20px;
-  margin-bottom: 2em;
-  background: none;
-  color: var(--primary-text);
-  background-color: var(--light-primary-color);
-  border: 1px solid var(--text-icons);
-  border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 2em;
+    background: none;
+    color: var(--primary-text);
+    background-color: var(--light-primary-color);
+    border: 1px solid var(--text-icons);
+    border-radius: 5px;
 }
 
 fieldset legend {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 #btn-submit {
-  padding: 10px 20px;
-  margin: 1em;
-  border: none;
-  text-transform: uppercase;
-  background-color: var(--accent-color);
-  border-radius: 20px;
-  cursor: pointer;
-  box-shadow: 1px 3px 11px -5px hsl(231, 50%, 40%);
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: var(--accent-color);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px hsl(231, 50%, 40%);
+
 }
 
 #btn-submit:hover {
-  background-color: var(--text-icons);
-  box-shadow: none;
+    background-color: var(--text-icons);
+    box-shadow: none;
 }
 
 label {
-  margin-left: 10px;
-  display: block;
-  font-weight: bold;
+    margin-left: 10px;
+    display: block;
+    font-weight: bold;
 }
 
+@media screen and (min-width: 769px) {
+    .form-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    label {
+        display: initial;
+    }
+
+
+
+
+
+
+
+
+}
