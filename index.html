@@ -4,130 +4,246 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/0d7a427fbc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/mediaQueries.css">
-    <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/form.css">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0d7a427fbc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/mediaQueries.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/skills.css" />
+    <link rel="stylesheet" href="/css/form.css" />
+    <link rel="stylesheet" href="/css/carousel.css">
+    <link rel="stylesheet" href="/css/footer.css" />
+
     <title>M&M</title>
   </head>
   <body>
-      <nav class="navbar">
+    <nav class="navbar">
       <div class="brand">
         <h1>M<span>&</span>M</h1>
       </div>
-        <ul class="menu" id="menu">
-          <li><a href="#" class="active">Inicio</a></li>
-          <li><a href="#carousel-section">Projects</a></li>
-          <li><a href="#skills-section">Skills</a></li>
-          <li><a href="#form-section">Contact</a></li>
-        </ul>
-        <div class="toggle-menu">
-          <i class="fas fa-bars" id="toggle-open"></i>
-          <i class="fas fa-close" id="toggle-close"></i>
+      <ul class="menu" id="menu">
+        <li><a href="#" class="active">Inicio</a></li>
+        <li><a href="#carousel-section">Proyectos</a></li>
+        <li><a href="#skills-section">Habilidades</a></li>
+        <li><a href="#contact-section">Contacto</a></li>
+      </ul>
+      <div class="toggle-menu">
+        <i class="fas fa-bars" id="toggle-open"></i>
       </div>
     </nav>
     <header>
-          <picture>
-            <source media="(max-width: 767px)" srcset="
-              images/header_small/M_M_samll_apdlyl_ar_1_1,c_fill,g_auto__c_scale,w_200.jpg 200w,
-              images/header_small/M_M_samll_apdlyl_ar_1_1,c_fill,g_auto__c_scale,w_584.jpg 584w,
-              images/header_small/M_M_samll_apdlyl_ar_1_1,c_fill,g_auto__c_scale,w_685.jpg 685w">
-            <source media="(min-width: 768px) and (max-width: 991px)" srcset="
-              images/header_large/M_M_large_qqtxey_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg 538w,
-              images/header_large/M_M_large_qqtxey_ar_4_3,c_fill,g_auto__c_scale,w_694.jpg 694w">
-            <source media="(min-width: 992px) and (max-width: 1199px)" srcset="
-              images/header_large/M_M_large_qqtxey_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg 596w,
-              images/header_large/M_M_large_qqtxey_ar_16_9,c_fill,g_auto__c_scale,w_720.jpg 720w">
-            <img src="images/header_large/M_M_large_qqtxey_c_scale,w_1200.jpg" alt="">
-          </picture>
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            images/header_small/M_M_samll_apdlyl_ar_1_1,c_fill,g_auto__c_scale,w_200.jpg 200w,
+            images/header_small/M_M_samll_apdlyl_ar_1_1,c_fill,g_auto__c_scale,w_584.jpg 584w,
+            images/header_small/M_M_samll_apdlyl_ar_1_1,c_fill,g_auto__c_scale,w_685.jpg 685w
+          "
+        />
+        <source
+          media="(min-width: 768px) and (max-width: 991px)"
+          srcset="
+            images/header_large/M_M_large_qqtxey_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg 538w,
+            images/header_large/M_M_large_qqtxey_ar_4_3,c_fill,g_auto__c_scale,w_694.jpg 694w
+          "
+        />
+        <source
+          media="(min-width: 992px) and (max-width: 1199px)"
+          srcset="
+            images/header_large/M_M_large_qqtxey_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg 596w,
+            images/header_large/M_M_large_qqtxey_ar_16_9,c_fill,g_auto__c_scale,w_720.jpg 720w
+          "
+        />
+        <img
+          src="images/header_large/M_M_large_qqtxey_c_scale,w_1200.jpg"
+          alt=""
+        />
+      </picture>
     </header>
+    <h2>Carousel</h2>
+    <section id="carousel-container">
+      <div class="carousel-slides">
+        <div id="slide1" class="slide-content">
+          <div class="cat-carousel-image"><img src="./images/gato1.jpeg" alt=""></div>
+          <div class="card-content">
+            <div><h3 class="card-title">Michagram</h3></div>
+            <div><p class="card-description">Red social para gatografos.</p></div>
+          </div>
+        </div>
+      <div id="slide2" class="slide-content">
+        <div class="cat-carousel-image"><img src="./images/gato3.jpeg" alt=""></div>
+        <div class="card-content">
+          <div><h3 class="card-title">MichiNation</h3></div>
+          <div><p class="card-description">Aplicación para concoer otros gatetes.</p></div>
+        </div>
+      </div>
+      <div id="slide3" class="slide-content">
+        <div class="cat-carousel-image"><img src="./images/gato4.jpeg" alt=""></div>
+        <div class="card-content">
+          <div><h3 class="card-title">Cats&Karens</h3></div>
+          <div><p class="card-description">Foro de discusión sobre las Karens.</p></div>
+        </div>
+      </div>
+    </div>
+      <div class="carousel-links">
+        <a href="#slide1" class="carousel-dot"></a>
+        <a href="#slide2" class="carousel-dot"></a>
+        <a href="#slide3" class="carousel-dot"></a>
+      </div>
+    </section>
     <main>
-      <section id="carousel-section">
-        <article>
-          <header>
-            <h1>Carousel</h1>
-          </header>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, dolorum aliquid ducimus recusandae atque fugiat saepe aperiam reprehenderit cupiditate dicta excepturi unde consectetur assumenda, asperiores dolores dolore maxime hic itaque.</p>
-        </article>
-      </section>
       <section id="skills-section">
-        <article>
-          <header>
-            <h1>Barras animadas</h1>
-          </header>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, dolorum aliquid ducimus recusandae atque fugiat saepe aperiam reprehenderit cupiditate dicta excepturi unde consectetur assumenda, asperiores dolores dolore maxime hic itaque.</p>
-        </article>
+        <div id="habilidades">
+          <h2>Mis habilidades de programación</h2>
+          <div class="habilidades-container">
+            <div class="habilidad">
+              <h2>HTML</h2>
+              <div class="barra-progreso">
+                <div class="progreso html"></div>
+              </div>
+              <span class="porcentaje">60%</span>
+            </div>
+            <div class="habilidad">
+              <h2>CSS</h2>
+              <div class="barra-progreso">
+                <div class="progreso css"></div>
+              </div>
+              <span class="porcentaje">65%</span>
+            </div>
+            <div class="habilidad">
+              <h2>JS</h2>
+              <div class="barra-progreso">
+                <div class="progreso js"></div>
+              </div>
+              <span class="porcentaje">70%</span>
+            </div>
+            <div class="habilidad">
+              <h2>Python</h2>
+              <div class="barra-progreso">
+                <div class="progreso python"></div>
+              </div>
+              <span class="porcentaje">90%</span>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="contact-section">
-          <header>
-            <h2>Formulario</h2>
-          </header>
-         <form action="/links/form-register.html" method="post" novalidate>
-          <div>
-          <label for="name">Nombre</label>
-          <input required name="name" id="name" type="text" class="form-group">
-        </div>
-        <div>
-          <label for="surname">Apellidos</label>
-          <input required name="surname" id="surname" type="text" class="form-group">
-        </div>
-        <div>
-          <label for="phone">Teléfono</label>
-          <input required name="phone" id="phone" type="tel" pattern="[0-9]+" class="form-group">
-        </div>
-        <fieldset class="form-group">
-          <legend>¿Como me conociste?</legend>          
-          <input type="radio" id="university" name="option" value="universidad" checked>
-          <label for="">Universidad</label>          
-          <input type="radio" id="keepcoding" name="option" value="keepcoding">
-          <label for="">Keepcoding kick-off</label>          
-          <input type="radio" id="school" name="option" value="colegio">
-          <label for="">Colegio</label>          
-          <input type="radio" id="github" name="option" value="github">
-          <label for="">En Github</label>
-        </fieldset>
-        <label for="github">Usuario Github</label>
-        <input required name="github" id="github" type="text" pattern="^@[^\s]+" placeholder="@username" class="form-group">
-        <label for="description">Descripcion</label>
-        <textarea required name="textarea" id="description" cols="30" rows="10" minlength="20" maxlength="180" class="form-group"></textarea>
+        <header>
+          <h2>Contacto</h2>
+        </header>
+        <form action="/links/form-register.html" method="post" novalidate>
+          <div class="form-container">
+            <div>
+              <label for="name">Nombre</label>
+              <input
+                required
+                name="name"
+                id="name"
+                type="text"
+                class="form-group"
+              />
+            </div>
+            <div>
+              <label for="surname">Apellidos</label>
+              <input
+                required
+                name="surname"
+                id="surname"
+                type="text"
+                class="form-group"
+              />
+            </div>
+            <div>
+              <label for="phone">Teléfono</label>
+              <input
+                required
+                name="phone"
+                id="phone"
+                type="tel"
+                pattern="[0-9]+"
+                class="form-group"
+              />
+            </div>
+          </div>
+          <fieldset class="fieldset">
+            <legend>¿Cómo me conociste?</legend>
+            <input
+              type="radio"
+              id="university"
+              name="option"
+              value="universidad"
+              checked
+            />
+            <label for="university">Universidad</label>
+            <input
+              type="radio"
+              id="keepcoding"
+              name="option"
+              value="keepcoding"
+            />
+            <label for="keepcoding">Keepcoding kick-off</label>
+            <input type="radio" id="school" name="option" value="colegio" />
+            <label for="school">Colegio</label>
+            <input type="radio" id="github" name="option" value="github" />
+            <label for="github">En Github</label>
+          </fieldset>
+          <label for="github">Usuario Github</label>
+          <input
+            required
+            name="github"
+            id="github"
+            type="text"
+            pattern="^@[^\s]+"
+            placeholder="@username"
+            class="form-group"
+          />
+          <label for="description">Descripción</label>
+          <textarea
+            required
+            name="textarea"
+            id="textarea"
+            cols="30"
+            rows="10"
+            minlength="20"
+            maxlength="180"
+            class="form-group-textarea"
+          ></textarea>
           <button type="submit" id="btn-submit">Enviar</button>
-         </form>
+        </form>
       </section>
     </main>
     <footer class="footer">
       <div class="footer-content">
         <h2>Michi&Micha</h2>
         <h4>Cats Developers</h4>
-      <div class="social-network">
-        <a
-          href="/links/linkedin.html"
-          target="_blank"
-          rel="noreferrer noopener"
-          
-        > 
-        <i class="fa-brands fa-linkedin"></i></a
-        >
-        <a
-          href="/links/twitter.html"
-          target="_blank"
-          rel="noreferrer noopener"
+        <div class="social-network">
+          <a
+            href="/links/linkedin.html"
+            target="_blank"
+            rel="noreferrer noopener"
           >
-          <i class="fa-brands fa-twitter"></i>
-          </a
-        >
-        <a
-          href="/links/github.html"
-          target="_blank"
-          rel="noreferrer noopener"
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="/links/twitter.html"
+            target="_blank"
+            rel="noreferrer noopener"
           >
-          <i class="fa-brands fa-github"></i>
-          </a
-        >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="/links/github.html"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
       </div>
     </footer>
   </body>

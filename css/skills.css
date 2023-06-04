@@ -1,0 +1,109 @@
+#skills-section{
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+.barra-progreso {
+    background-color: #f1f1f1;
+    height: 20px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .progreso {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+    animation: llenar 2s ease-in-out forwards;
+  }
+  
+  @keyframes llenar-html {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 60%;
+    }
+  }
+  
+  @keyframes llenar-css {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 65%;
+    }
+  }
+  
+  @keyframes llenar-js {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 70%;
+    }
+  }
+  
+  @keyframes llenar-python {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 90%;
+    }
+  }
+  
+  .habilidades-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .habilidad {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .progreso.html {
+    background-color: #fa850fde;
+    animation-name: llenar-css;
+    animation-duration: 2.5s;
+  }
+  
+  .progreso.css {
+    background-color: #2965f1;
+    animation-name: llenar-css;
+    animation-duration: 2.5s;
+  }
+  
+  .progreso.js {
+    background-color: #f7df1e;
+    animation-name: llenar-js;
+    animation-duration: 3s;
+  }
+  
+  .progreso.python {
+    background-color: #306998;
+    animation-name: llenar-python;
+    animation-duration: 4s;
+  }
+  
+  .habilidad h3 {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .habilidades-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+  
+    .habilidad {
+      width: calc(50% - 10px);
+    }
+  }
+  

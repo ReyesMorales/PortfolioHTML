@@ -1,0 +1,72 @@
+.carousel-links {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-links .carousel-dot {
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    margin: 15px 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.carousel-slides {
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.carousel-slides {
+    /* height: 100%;
+    width: 100%;
+    background-color: var(--light-primary-color);
+    color: var(--primary-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid green; */
+}
+
+.cat-carousel-image img {
+    width: 150px;
+    height: 100px;
+}
+
+.slide-content {
+    /* display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    background-color: var(--light-primary-color);
+    color: var(--primary-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid green;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content  p {
+    margin-bottom: 20px;
+}
+
+  
+  
+  
+  
+  
+  
+  
