@@ -17,9 +17,6 @@
     max-height: 850px; 
   }
 
-main {
-    background-color: var(--light-primary-color);
-}
 
 .divider {
     background-color: var(--dark-primary-color);
@@ -35,6 +32,8 @@ main {
 
 .presentation-text {
     font-size: 1em;
-    border: 1px solid red;
-    
+}
+
+body {
+    background-color: var(--light-primary-color);
 }
