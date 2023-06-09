@@ -29,7 +29,7 @@
   text-decoration: none;
   padding: 4px;
   font-size: large;
-  transition: color 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .toggle-menu {
