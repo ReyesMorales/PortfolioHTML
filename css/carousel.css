@@ -19,13 +19,11 @@
     flex-direction: column;
     overflow: hidden;
     scroll-behavior: smooth;
-
 }
 
 .slide-content {
     height: 100%;
     width: 100%;
-    background-color: var(--light-primary-color);
     color: var(--primary-text);
     display: flex;
     flex-direction: column;
@@ -39,12 +37,12 @@
 }
 
 .cat-carousel-image img {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
 }
 
 .card-content p {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 @media screen and (min-width: 768px) {
