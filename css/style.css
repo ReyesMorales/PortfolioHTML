@@ -9,6 +9,10 @@
     --text-icons: #FFFFFF;
 }
 
+body {
+    background-color: var(--light-primary-color);
+}
+
 .header-image img {
     width: 100%;
     height: auto;
@@ -25,15 +29,13 @@
     margin-bottom: 10px;
 } 
 
-.introduction-container {
+.container {
     margin-bottom: 20px;
     padding: 10px;
 }
 
-.presentation-text {
-    font-size: 1em;
+.paragraph-content {
+    font-size: 1.2em;
+    text-align: justify;
 }
 
-body {
-    background-color: var(--light-primary-color);
-}
