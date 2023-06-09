@@ -29,7 +29,7 @@
         <li><a href="#carousel-section">Trabajos</a></li>
         <li><a href="#skills-section">Habilidades</a></li>
         <li><a href="#contact-section">Contacto</a></li>
-        <li><a href="#" class="active">Poryectos</a></li>
+        <li><a href="#">Proyectos</a></li>
       </ul>
       <div class="toggle-menu">
         <i class="fas fa-bars" id="toggle-open"></i>
@@ -61,58 +61,67 @@
         />
         <img
           src="images/header_large/M_M_large_qqtxey_c_scale,w_1200.jpg"
-          alt=""
+          alt="Michi&Micha"
         />
       </picture>
-        
     </header>
-    <section id="carousel-container">
-      <div class="carousel-slides">
-        <div id="slide1" class="slide-content">
-          <div class="cat-carousel-image">
-            <img src="./images/gato1.jpeg" alt="" />
+    <main class="main"></main>
+    <div class="divider">...</div>
+      <div class="introduction-container">
+      <p id="presentation-text">
+        Somos Michi y Micha, los gatos desarroladores. Desde pequeñitos
+        aprendimos de nuestro Karen macho a usar el teclado y el ratón, con este
+        aprendimos que no era exactamente el que nos gusta a los felinos.
+        Después fuimos aprendiendo los entresijos de la programación hasta
+        superar a nuestro amo y montar nuestra propia empresa.
+      </p>
+    </div>
+      <section id="carousel-container">
+        <div class="carousel-slides">
+          <div id="slide1" class="slide-content">
+            <div class="cat-carousel-image">
+              <img src="./images/gato1.jpeg" alt="" />
+            </div>
+            <div class="card-content">
+              <div><h3 class="card-title">Michagram</h3></div>
+              <div>
+                <p class="card-description">Red social para gatografos.</p>
+              </div>
+            </div>
           </div>
-          <div class="card-content">
-            <div><h3 class="card-title">Michagram</h3></div>
-            <div>
-              <p class="card-description">Red social para gatografos.</p>
+          <div id="slide2" class="slide-content">
+            <div class="cat-carousel-image">
+              <img src="./images/gato3.jpeg" alt="" />
+            </div>
+            <div class="card-content">
+              <div><h3 class="card-title">MichiNation</h3></div>
+              <div>
+                <p class="card-description">
+                  Aplicación para concoer otros gatetes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="slide3" class="slide-content">
+            <div class="cat-carousel-image">
+              <img src="./images/gato4.jpeg" alt="" />
+            </div>
+            <div class="card-content">
+              <div><h3 class="card-title">Cats&Karens</h3></div>
+              <div>
+                <p class="card-description">
+                  Foro de discusión sobre las Karens.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div id="slide2" class="slide-content">
-          <div class="cat-carousel-image">
-            <img src="./images/gato3.jpeg" alt="" />
-          </div>
-          <div class="card-content">
-            <div><h3 class="card-title">MichiNation</h3></div>
-            <div>
-              <p class="card-description">
-                Aplicación para concoer otros gatetes.
-              </p>
-            </div>
-          </div>
+        <div class="carousel-links">
+          <a href="#slide1" class="carousel-dot"></a>
+          <a href="#slide2" class="carousel-dot"></a>
+          <a href="#slide3" class="carousel-dot"></a>
         </div>
-        <div id="slide3" class="slide-content">
-          <div class="cat-carousel-image">
-            <img src="./images/gato4.jpeg" alt="" />
-          </div>
-          <div class="card-content">
-            <div><h3 class="card-title">Cats&Karens</h3></div>
-            <div>
-              <p class="card-description">
-                Foro de discusión sobre las Karens.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-links">
-        <a href="#slide1" class="carousel-dot"></a>
-        <a href="#slide2" class="carousel-dot"></a>
-        <a href="#slide3" class="carousel-dot"></a>
-      </div>
-    </section>
-    <main>
+      </section>
       <section id="skills-section">
         <div id="habilidades">
           <div class="habilidades-container">
@@ -181,39 +190,65 @@
                 class="form-group"
               />
             </div>
+            <div>
+              <label for="github">Usuario Github</label>
+              <input
+                required
+                name="github"
+                id="github"
+                type="text"
+                pattern="^@[^\s]+"
+                placeholder="@username"
+                class="form-group"
+              />
+            </div>
           </div>
+          <legend>¿Cómo me conociste?</legend>
           <fieldset class="fieldset">
-            <legend>¿Cómo me conociste?</legend>
+            <div class="input-block">
+              <input
+                type="radio"
+                id="university"
+                name="option"
+                value="universidad"
+                checked
+              />
+              <label for="university" class="fieldset-label">Universidad</label>
+            </div>
+            <div class="input-block">
+              <input
+                type="radio"
+                id="keepcoding"
+                name="option"
+                value="keepcoding"
+                class="fieldset-input"
+              />
+              <label for="keepcoding" class="fieldset-label"
+                >Keepcoding kick-off</label
+              >
+            </div>
+            <div  class="input-block">
             <input
               type="radio"
-              id="university"
+              id="school"
               name="option"
-              value="universidad"
-              checked
+              value="colegio"
+              class="fieldset-input"
             />
-            <label for="university">Universidad</label>
-            <input
-              type="radio"
-              id="keepcoding"
-              name="option"
-              value="keepcoding"
-            />
-            <label for="keepcoding">Keepcoding kick-off</label>
-            <input type="radio" id="school" name="option" value="colegio" />
-            <label for="school">Colegio</label>
-            <input type="radio" id="github" name="option" value="github" />
-            <label for="github">En Github</label>
+            <label for="school" class="fieldset-label">Colegio</label>
+          </div>
+            <div class="input-block">
+              <input
+                type="radio"
+                id="github"
+                name="option"
+                value="github"
+                class="fieldset-input"
+              />
+              <label for="github" class="fieldset-label">En Github</label>
+            </div>
           </fieldset>
-          <label for="github">Usuario Github</label>
-          <input
-            required
-            name="github"
-            id="github"
-            type="text"
-            pattern="^@[^\s]+"
-            placeholder="@username"
-            class="form-group"
-          />
+          <div>
           <label for="description">Descripción</label>
           <textarea
             required
@@ -224,7 +259,9 @@
             minlength="20"
             maxlength="180"
             class="form-group-textarea"
-          ></textarea>
+          >
+        </textarea>
+      </div>
           <button type="submit" id="btn-submit">Enviar</button>
         </form>
       </section>
