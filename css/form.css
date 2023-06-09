@@ -3,11 +3,6 @@
   box-sizing: border-box;
 }
 
-h3 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
 .form-group,
 .form-group-textarea {
   display: block;
