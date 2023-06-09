@@ -9,8 +9,6 @@
     --text-icons: #FFFFFF;
 }
 
-
-
 .header-image img {
     width: 100%;
     height: auto;
@@ -18,4 +16,7 @@
     max-width: 100%;
     max-height: 500px; 
   }
-  
+
+main {
+    background-color: var(--light-primary-color);
+}
