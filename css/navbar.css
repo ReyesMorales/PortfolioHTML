@@ -9,6 +9,9 @@
   height: auto;
 }
 
+.navbar div > h1 {
+  font-weight: bold;
+}
 .brand span {
   color: var(--light-primary-color);
 }
