@@ -35,14 +35,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-.toggle-menu {
+.projects-link {
   display: block;
-  cursor: pointer;
-}
-
-#toggle-open {
-  font-size: 1.5em;
-  margin-top: -0.2em;
+  color: var(--primary-text);
+  text-decoration: none;
 }
 
 
@@ -65,7 +61,7 @@
     text-decoration: underline;
   }
 
-  .toggle-menu {
+  .projects-link {
     display: none;
   }
 }
