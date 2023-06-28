@@ -13,22 +13,6 @@ Este proyecto es el portfolio de los trabajos de los gatos desarrolladores, Mich
 2. Utiliza live server (u otro semejante) para visitar el localhost y ver el contenido del portfolio.
 
    ...
-
-## Estructura de Archivos
-
-Explicación de la estructura de archivos del proyecto:
-
-/
-├── index.html
-├── styles.css
-├── script.js
-├── images/
-│ ├── image1.jpg
-│ ├── image2.jpg
-│ └── ...
-└── ...
-
-
 ## Tecnologías Utilizadas
 
 - HTML
@@ -38,23 +22,6 @@ Explicación de la estructura de archivos del proyecto:
 
 Version movil
 
-![Portfolio](images/screenshotproject.png)
-
-## Ejemplos de Código Destacados
-
-```html
-<!-- Código HTML destacado -->
-<div class="example">
-  ...
-</div>
-
-/* Código CSS destacado */
-.example {
-  ...
-}
+![Portfolio](images/readme/vistaversionmovil.png)
 
 
-
-Contacto
-Email: reyesmoralesdominguez@gmail.com
-GitHub: https://github.com/ReyesMorales
