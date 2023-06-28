@@ -6,13 +6,16 @@ Este proyecto es el portfolio de los trabajos de los gatos desarrolladores, Mich
 
 1. Navegar a la pagina de GitHub y clonar el repositorio.
 
-```
+```sh
  git clone https://github.com/ReyesMorales/PortfolioHTML
 ```
 
 2. Utiliza live server (u otro semejante) para visitar el localhost y ver el contenido del portfolio.
 
-   ...
+```sh
+npx live-server
+```
+
 ## Tecnologías Utilizadas
 
 - HTML
